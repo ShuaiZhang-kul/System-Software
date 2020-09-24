@@ -10,5 +10,6 @@ And a normal pipe is used to inform child process if the parent process is still
 For the dplist.c it generate a data structure to store the data for different sensors at different time. Each node store the data from one sensor at a specific time.
 To Avoid the chao access to the sbuffer from three main thread, Pthread_lock is used for managing the usage of CPU.
 In summary, this software has parts of the function of operating system like memory management, I/O management, CPU management, TCP-management and thread&process management.
+GCC is used for the compiling and valgrind is used for the memory leak detection.
 Furthermore, working principal.jpg and memory overview.jpg can be found in the folder to illustrate this project.
 
